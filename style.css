@@ -1,9 +1,9 @@
 .background{
-    background-color: gray;
+    background-color: rgb(187, 63, 63);
 }
 
 #intro_page_title{
-    color: #40aaf2;
+    color: white;
 }
 
 .page-title{
@@ -19,10 +19,11 @@
 #cursor{
     color: #f8f8f0;
     font-size: 100px;
-    font-family: sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: lighter;
     vertical-align: text-top;
 }
+
 .center{
     margin: 0 auto;
     width: auto;
@@ -58,7 +59,7 @@
     font-size: 20px;
     font-weight: bold;
     padding: 15px;
-    font-family: sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
 }
 
@@ -73,16 +74,57 @@
 }
 
 #projects_toggle:hover{
-        color: #8c1d40;
-        border-color: black;
+    color: #8c1d40;
+    border-color: black;
 }
 
 #experience-toggle{
     border: 4px solid #40aaf2;
 }
+
 #experience-toggle:hover{
     color: #40aaf2;
     border-color: black;
 }
 
+th, td {
+    padding: 20px;
+    border: 1px solid gray;
+}
 
+.experience-entry:hover {
+    background-color: #40AAF2
+}
+
+#experience_table {
+    display: none;
+    width: 70%;
+    margin-top: 20px;
+    color: white;
+}
+
+.experience-title {
+    font-size: 30px;
+    width: 40%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.experience-desc {
+    font-size: 20px;
+    width: 60%;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+#back_button {
+    color: lightgray;
+    text-decoration: none;
+}
+
+#back_button:visited {
+    color: lightgray;
+}
